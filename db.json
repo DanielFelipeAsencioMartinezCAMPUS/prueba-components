@@ -1,22 +1,28 @@
 {
-  "users": [
+  "users":[],
+  "categoria": [
+   {
+    "id":1,
+    "name": "electrodomesticos"
+   },
+   {
+    "id": 2,
+    "name":  "cafeteria" },
     {
-      "id": 1
+        "id":3,
+        "name": "juegos"
     },
     {
-      "id": 2
+        "id": 4,
+        "name": "ropa femenina"
     },
     {
-      "id": 3
+        "id":5,
+        "name":  "ropa infantil" 
     },
     {
-      "id": 4
-    },
-    {
-      "id": 5
-    },
-    {
-      "id": 6
+        "id":6,
+        "name":  "ferreteria" 
     }
   ]
 }
