@@ -64,6 +64,7 @@ let text = document.getElementById('hide-text')
 
 
 function toggletext(){
-    text.classList.toggle('show');
+    text.classList.toggle('#show');
 }
+
 hide_text.addEventListener('click',toggletext);

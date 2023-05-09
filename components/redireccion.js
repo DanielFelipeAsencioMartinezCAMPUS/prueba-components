@@ -1,4 +1,4 @@
 function redireccion (){
-    location.href = "./paginas/productos.html"
+    location.href = "./paginas/dashboard.html"
 }
 
