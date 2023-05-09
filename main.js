@@ -58,13 +58,6 @@ btn.addEventListener('click' ,(event) => {
 })
 
 // 
-let hide_text =document.getElementById('hide-buton')
-let text = document.getElementById('hide-text')
-
-
-
-function toggletext(){
-    text.classList.toggle('#show');
+function mostrarpremio (){
+    document.getElementById('tablacategoria').style.display = 'block';
 }
-
-hide_text.addEventListener('click',toggletext);
