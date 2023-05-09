@@ -4,10 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../main.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <p>holaaa</p>
+    <div class="container-fluid">
+            <nav class="navbar navbar-expand-md navbar-dark ">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Navbar</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    
+                  </div>
+                </div>
+              </nav>
+                <div class="row">
+                  <div class="col-sm-12 col-md-3 col-xl-3 text-start " >
+                   <div><img src="../img/casco-removebg-preview.png" class="w-25" alt=""> <p>campusland</p></div>
+                   <ul class="mt-2 ">
+                    <li class="p-2"><a href=""><i class="bi bi-moon"></i>  categorias</a></li>
+                    <li class="p-2"><a href=""><i class="bi bi-moon"></i>  productos</a></li>
+                    <li class="p-2"><a href=""><i class="bi bi-moon"></i>  clientes</a></li>
+                    <li class="p-2"><a href=""><i class="bi bi-moon"></i>  ususarios</a></li>
+                    <li class="p-2"><a href=""><i class="bi bi-moon"></i>  ventas</a></li>
+                    <li class="p-2"><a href=""><i class="bi bi-moon"></i>  compras</a></li>
+                   </ul>
+                  </div>
+                  <div class="col-sm-12 col-md-9 col-xl-9 py-5 text-center" id="categorias">
+                    <div class="border py-5 ">
+                        <button type="button" class="btn btn-success w-25 " id="hide-buton"><i class="bi bi-tag bg-success" id="categori" onclick="boton()"></i>CATEGORIAS</button>
+                       <div  class="tablacategoria">
+                        <table class="mt-5" id="hide-text">
+                            <thead>
+                                <th>id</th>
+                                <th>categoria</th>
+                                <th>borrar</th>
+                            </thead>
+                            <tr>
+                                <td>1</td>
+                                <td>electrodomesticos</td>
+                                <td><button type="button" class="btn btn-danger w-25">BORRAR</button></td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>cafeteria</td>
+                                <td><button type="button" class="btn btn-danger w-25">BORRAR</button></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>juegos</td>
+                                <td><button type="button" class="btn btn-danger w-25">BORRAR</button></td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>ropa femenina</td>
+                                <td><button type="button" class="btn btn-danger w-25">BORRAR</button></td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>ropa infantil</td>
+                                <td><button type="button" class="btn btn-danger w-25">BORRAR</button></td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>fereteria</td>
+                                <td><button type="button" class="btn btn-danger w-25">BORRAR</button></td>
+                            </tr>
+                        </table>
+                       </div>
+                    </div>
+                  </div>
+                </div>
+                
+    </div>
+    <script src="../components/redireccion.js"></script>
 </body>
 </html>

@@ -2,3 +2,24 @@
     color: aliceblue;
     background-color: #1B1A30;
 }
+a{
+    color:aliceblue;
+    text-decoration: none;
+}
+li{
+    border-bottom-style: dashed 2px aliceblue;
+    padding: 2em;
+    margin-top: 2%;
+    background-color: #1B1F30;
+}
+table{
+    width: 100%;
+    padding: 2em;
+    background-color: #1B1A30
+}
+#tablacategoria{
+    display: none;
+}
+#show{
+    display: block;
+}

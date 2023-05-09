@@ -1,6 +1,8 @@
-const formulario = document.querySelector('#form');
-const btn = document.querySelector('#boton');
-const respuesta = document.querySelector('#respuesta');
+const btn = document.getElementById('btn');
+
+const formulario = document.getElementById('form');
+
+const respuesta = document.getElementById('respuesta');
 
 
 const procesa = () => {
@@ -26,11 +28,18 @@ const Postdata = async () =>{
         });
 
      if(response.ok){
-        const respuesta = await response.json();
+        const jsonresponse = await response.json();
 
-        const {nombre,email,contraseña} = respuesta;
+        const {nombre, email, contraseña} = jsonresponse
+
+        
         respuesta.innerHtml = 
-        `<p>datos almacenados con exito</p>`
+        `<ul> 
+             ¡Exito! Se guardó la siguiente información:
+            <li>email :${email}</li> 
+            <li>nombre: ${nombre}</li> 
+            <li>contraseña :${contraseña}</li>
+        </ul>`
      }
 
     }
@@ -38,11 +47,23 @@ const Postdata = async () =>{
 
     // catch
     catch (error){
-        window.alert(error);
+        console.log(error);
     }
 }
 btn.addEventListener('click' ,(event) => {
     event.preventDefault();
     alert("exito")
     Postdata();
+    
 })
+
+// 
+let hide_text =document.getElementById('hide-buton')
+let text = document.getElementById('hide-text')
+
+
+
+function toggletext(){
+    text.classList.toggle('show');
+}
+hide_text.addEventListener('click',toggletext);
