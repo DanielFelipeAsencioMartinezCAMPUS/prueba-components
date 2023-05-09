@@ -1,28 +1,33 @@
 {
-  "users":[],
+  "users": [
+    {
+      "id": 1
+    }
+  ],
   "categoria": [
-   {
-    "id":1,
-    "name": "electrodomesticos"
-   },
-   {
-    "id": 2,
-    "name":  "cafeteria" },
     {
-        "id":3,
-        "name": "juegos"
+      "id": 1,
+      "name": "electrodomesticos"
     },
     {
-        "id": 4,
-        "name": "ropa femenina"
+      "id": 2,
+      "name": "cafeteria"
     },
     {
-        "id":5,
-        "name":  "ropa infantil" 
+      "id": 3,
+      "name": "juegos"
     },
     {
-        "id":6,
-        "name":  "ferreteria" 
+      "id": 4,
+      "name": "ropa femenina"
+    },
+    {
+      "id": 5,
+      "name": "ropa infantil"
+    },
+    {
+      "id": 6,
+      "name": "ferreteria"
     }
   ]
 }

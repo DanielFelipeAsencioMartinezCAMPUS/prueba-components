@@ -1,4 +1,4 @@
-const btn = document.getElementById('btn');
+const btn = document.querySelector('#botondereistro');
 
 const formulario = document.getElementById('form');
 
@@ -55,12 +55,6 @@ const Postdata = async () =>{
         console.log(error);
     }
 }
-btn.addEventListener('click' ,(event) => {
-    event.preventDefault();
-    alert("exito")
-    Postdata();
-    
-})
 
 // 
 function mostrarpremio (){
