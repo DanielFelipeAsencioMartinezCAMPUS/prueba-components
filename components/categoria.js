@@ -35,33 +35,33 @@ const contenido = `<table class="mt-5">
     <th>borrar</th>
 </thead>
 <tr>
-    <td>1</td>
-    <td>electrodomesticos</td>
+    <td>${categoria[0[0]]}</td>
+    <td>${categoria[0[1]]}</td>
     <td><button type="button" class="btn btn-danger w-25">BORRAR</button></td>
 </tr>
 <tr>
-    <td>2</td>
-    <td>cafeteria</td>
+    <td>${categoria[1[0]]}</td>
+    <td>${categoria[1[1]]}</td>
     <td><button type="button" class="btn btn-danger w-25">BORRAR</button></td>
 </tr>
 <tr>
-    <td>3</td>
-    <td>juegos</td>
+    <td>${categoria[2[0]]}</td>
+    <td>${categoria[2[1]]}</td>
     <td><button type="button" class="btn btn-danger w-25">BORRAR</button></td>
 </tr>
 <tr>
-    <td>4</td>
-    <td>ropa femenina</td>
+    <td>${categoria[3[0]]}</td>
+    <td>${categoria[3[1]]}</td>
     <td><button type="button" class="btn btn-danger w-25">BORRAR</button></td>
 </tr>
 <tr>
-    <td>5</td>
-    <td>ropa infantil</td>
+    <td>${categoria[4[0]]}</td>
+    <td>${categoria[4[1]]}</td>
     <td><button type="button" class="btn btn-danger w-25">BORRAR</button></td>
 </tr>
 <tr>
-    <td>6</td>
-    <td>fereteria</td>
+    <td>${categoria[5[0]]}</td>
+    <td>${categoria[5[1]]}</td>
     <td><button type="button" class="btn btn-danger w-25">BORRAR</button></td>
 </tr>
 </table>`

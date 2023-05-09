@@ -30,7 +30,12 @@ const Postdata = async () =>{
      if(response.ok){
         const jsonresponse = await response.json();
 
-        const {nombre, email, contraseña} = jsonresponse
+        jsonresponse = {
+            "name": nombre,
+            "correo": email,
+            "contraseña":contraseña
+
+        }
 
         
         respuesta.innerHtml = 
